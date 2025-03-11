@@ -1,0 +1,49 @@
+[package]
+name = "dynamic-mcp-agent-networks"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+# Command line argument parsing
+clap = "2.33"
+
+# Async runtime
+tokio = { version = "1.28", features = ["full"] }
+futures = "0.3"
+
+# Network scanning
+trust-dns-resolver = "0.22"
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.7"
+
+# Templates
+handlebars = "4.3"
+
+# Logging
+log = "0.4"
+log4rs = "1.2"
+chrono = "0.4"
+
+# Utilities
+uuid = { version = "1.3", features = ["v4"] }
+thiserror = "1.0"
+anyhow = "1.0"
+
+[dev-dependencies]
+tempfile = "3.5"
+mockito = "1.0"
+serial_test = "2.0"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
+[[bin]]
+name = "dynamic-mcp-agent-networks"
+path = "src/main.rs"
