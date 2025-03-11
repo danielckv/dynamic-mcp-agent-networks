@@ -1,6 +1,7 @@
 # dynamic-mcp-agent-networks
 
-A powerful cross-platform agent that automatically discovers and monitors network services in your infrastructure. This tool scans your network for APIs, endpoints, logs, and other services, then generates MCP (Model Context Protocol) connectors for seamless integration with your monitoring systems.
+This tool scans your network for APIs, endpoints, logs, and other services, then generates MCP (Model Context Protocol) connectors for seamless integration with other providers.
+The tool is running locally on the host's machine to lookup for any kind of endpoints/APIs that could be part of the user's service solution.
 
 ## Key Features
 
