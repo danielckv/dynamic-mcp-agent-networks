@@ -1,14 +1,15 @@
 # MCP Connector Generator
 
-FullScaleAgenticSwarm is a project that demonstrates the ability to generate dynamic agents for diverse logic-based tasks, driven by prompts and instructions. 
+A powerful cross-platform agent that automatically discovers and monitors network services in your infrastructure. This tool scans your network for APIs, endpoints, logs, and other services, then generates MCP (Monitoring and Control Protocol) connectors for seamless integration with your monitoring systems.
 
-## Overview
-A cross-platform network scanner that discovers APIs, endpoints, and logs on a network and automatically generates MCP (Monitoring and Control Protocol) connectors.
-Features
+## Key Features
 
-Scans network for APIs, endpoints, and logs
-Detects service types based on port and protocol
-Supports multiple discovery methods (port scanning, mDNS, UPnP)
-Generates standardized MCP connectors
-Cross-platform (Windows, macOS, Linux)
-Configurable scan parameters
+- **Automatic Service Discovery**: Scans networks to identify APIs, databases, log sources, message queues, and other services
+- **Cross-Platform Support**: Runs on Windows, macOS, Linux, and other UNIX-like systems
+- **Multiple Discovery Methods**: Uses port scanning, mDNS, and UPnP to find all available services
+- **Intelligent Service Classification**: Automatically determines service types and appropriate monitoring configurations
+- **Customizable Configuration**: Fine-tune scanning parameters, network ranges, and connector settings
+- **Lightweight and Efficient**: Built in Rust for maximum performance with minimal resource usage
+- **Easy Integration**: Generates standardized connector files that work with existing monitoring platforms
+
+Perfect for DevOps teams, system administrators, and anyone who needs comprehensive visibility into their network infrastructure.
