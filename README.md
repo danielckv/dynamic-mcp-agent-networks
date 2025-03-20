@@ -1,6 +1,7 @@
 # Dynamic MCP Agent Networks
 
 A powerful cross-platform agent built in Rust that automatically discovers and catalogs your organization's APIs and network services. This tool intelligently scans your infrastructure to identify APIs, endpoints, and services, then generates MCP (Model Context Protocol) connectors for seamless integration with your AI and LLM systems using the Model Context Protocol.
+![imagedadada](https://github.com/user-attachments/assets/1ad73233-0e16-4116-bfba-bc6eeef6af29)
 
 ## Key Features
 
